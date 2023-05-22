@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#upload-form {
+    margin-bottom: 20px;
+}
+
+#submit-button {
+    background-color: #406dee;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#result-container {
+    display: none;
+}
+
+#vulnerabilities-list {
+    list-style: none;
+    padding: 0;
+}
+
+.vulnerability-section {
+    margin-bottom: 20px;
+}
+
+.vulnerability-section h2 {
+    margin: 0;
+}
+
+#dashboard-container {
+    margin-top: 20px;
+}
+
+#dashboard-container .vulnerability-section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #406dee;
+}
