@@ -27,21 +27,21 @@ This repository contains a PHP vulnerability scanner, a tool designed by **Chat-
 
 1.  Clone the repository:
     
-     `git clone https://github.com/0xBugatti/Phantom.git`
-    
+     ```bash
+       git clone https://github.com/0xBugatti/Phantom.git
+     ```    
+     
 2.  Change to the project directory:
-    
-    bashCopy code
-    
-    ```bash
+        
+     ```bash
       cd Phantom/ 
-      ```
+     ```
     
 3.  Install the dependencies using Composer:
     
-    bashCopy code
-    
-    `pip install falsk`
+    ```bash
+    pip install falsk
+    ```
     
 
 ## Usage
