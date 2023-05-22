@@ -20,29 +20,28 @@ This repository contains a PHP vulnerability scanner, a tool designed by **Chat-
 
 ## Requirements
 
--   Python 
+-   Python >= 3.0
 -   flask
 
 ## Installation
 
 1.  Clone the repository:
     
-    bashCopy code
-    
-    `git clone https://github.com/your-username/php-vulnerability-scanner.git`
+     `git clone https://github.com/0xBugatti/Phantom.git`
     
 2.  Change to the project directory:
     
     bashCopy code
     
     ```bash
-cd php-vulnerability-scanner```
+      cd Phantom/ 
+      ```
     
 3.  Install the dependencies using Composer:
     
     bashCopy code
     
-    `composer install`
+    `pip install falsk`
     
 
 ## Usage
@@ -53,26 +52,18 @@ cd php-vulnerability-scanner```
     
     bashCopy code
     
-    `php scanner.php /path/to/php/application`
-    
-    Replace `/path/to/php/application` with the actual path to your PHP application.
-    
-3.  Wait for the scanner to analyze the code and generate the report.
-    
-4.  Once the scanning process is complete, the tool will generate a report file containing information about the identified vulnerabilities.
+    `python Phantom.py`
     
 
-## Extending the Scanner
+    
+3.  Open Url http://127.0.0.1:5000.
 
-The scanner can be extended by creating custom vulnerability checks. To add a custom check, follow these steps:
+4.  Upload you php file.  
+    
+5.  Once the scanning process is complete, the tool will generate a report file containing information about the identified vulnerabilities.
+    
 
-1.  Create a new PHP class that extends the `VulnerabilityCheck` class.
-    
-2.  Implement the `check()` method, which performs the necessary analysis to identify the vulnerability.
-    
-3.  Register the new check with the scanner by adding an instance of your custom class to the `$checks` array in the `scanner.php` file.
-    
-4.  Re-run the scanner to include the custom check in the scanning process.
+
     
 
 ## Contributing
