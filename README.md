@@ -8,10 +8,10 @@ This repository contains a PHP vulnerability scanner, a tool designed to identif
 -   **Vulnerability Detection**: The scanner incorporates a set of predefined rules and checks to identify common vulnerabilities such as SQL injection, cross-site scripting (XSS), remote code execution, file inclusion, and more.
       - Detected Vulnerabilities
         - XSS
-        - SQL injection
+        - SQL Injection
         - OS Command Injection
         - LFI
-        - File Upload
+        - Unristricted File Upload (Potential)
         - SSRF (Under Development)
 -   **WEB-UI**: open the tool web page throgh `http://127.0.0.1:5000` and start Upload your Php File.     
         
