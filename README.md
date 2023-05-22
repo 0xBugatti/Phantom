@@ -1,6 +1,6 @@
 # Phantom 
 
-This repository contains a PHP vulnerability scanner, a tool designed to identify security vulnerabilities in PHP applications. The scanner utilizes various techniques and checks to detect common security weaknesses and potential exploits in PHP code.
+This repository contains a PHP vulnerability scanner, a tool designed by **Chat-GPT**  to identify security vulnerabilities in PHP applications. The scanner uses utilized various regexto detect common security weaknesses and potential exploits in PHP code.
 
 ## Features
 
