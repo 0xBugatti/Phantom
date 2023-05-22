@@ -6,7 +6,8 @@ This repository contains a PHP vulnerability scanner, a tool designed to identif
 
 -   **Static Analysis**: The scanner performs static analysis on PHP source code to identify potential vulnerabilities. It analyzes the code structure, variable usage, function calls, and other patterns to detect security flaws.
 -   **Vulnerability Detection**: The scanner incorporates a set of predefined rules and checks to identify common vulnerabilities such as SQL injection, cross-site scripting (XSS), remote code execution, file inclusion, and more.
-      - xss
+      - Detected Vulnerabilities
+        - XSS
         - SQL injection
         - OS Command Injection
         - LFI
