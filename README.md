@@ -50,9 +50,10 @@ This repository contains a PHP vulnerability scanner, a tool designed by **Chat-
     
 2.  Run the vulnerability scanner command, providing the path to the PHP application you want to scan:
     
-    bashCopy code
     
-    `python Phantom.py`
+    ```bash
+    python Phantom.py
+    ```
     
 
     
